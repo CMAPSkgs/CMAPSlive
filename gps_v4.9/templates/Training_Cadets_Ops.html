@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<style type="text/css">
+	#p {
+		color: white;
+		font-family: universltstd;
+	}
+	#droplist {
+    	width: 284px !important;
+    }
+</style>
+<head>
+<link rel="stylesheet" type="text/css" href="/static/new/cmaps_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/static/new/images/favicon.ico">
+</head>
+    <body background="/static/new/images/patterBG.jpg">
+    <title>Operations</title>
+
+<div  align="center">
+   <header>
+   <a href="/">
+    	<img src="/static/new/images/headerv5.png" width="80%" >	<label for="show-menu" class="show-menu">Show Menu</label>
+    </a> 
+   </header>
+</div>
+<div  align="center" id="menu">
+	<input type="checkbox" id="show-menu" role="button">
+    	<ul>
+		<li><a href="/">Home</a></li>
+		<li>
+			<a href="#">Tracking</a>
+			<ul class="hidden">
+				<li id="droplist"><a href="/track_map/dyn">View Map</a></li>
+                <li id="droplist"><a href="/track_database">View Database</a></li>
+				<li id="droplist"><a href="/assignments">Assignments</a></li>
+			</ul>
+		</li>
+		<li><a href="https://cmaps-wiki.000webhostapp.com/">Wiki</a></li>
+		<li><a href="http://cmaps.knox.nsw.edu.au/about">Training</a>
+		<ul class="hidden">
+			<li id="droplist"><a href="http://cmaps.knox.nsw.edu.au/training/cadets">Cadets</a></li>
+			<li id="droplist"><a href="http://cmaps.knox.nsw.edu.au/training/cmaps">Cmaps</a></li>
+		</li>
+	</ul>
+</div>
+ <h1 id="p" style="margin-left: 400px; margin-top: 200px">Page that will contain the new training program</h1>
+<div style="margin-bottom: 80px;"></div>
+</body>
+</html>
